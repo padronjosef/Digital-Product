@@ -1,19 +1,23 @@
-#fqrs {
+#fqrs{
     max-width: 1000px;
-    margin: 40px auto;
-    width: 600px;
     min-height: 50px;
     /* background: blue; */
     border-radius: 5px;
+    margin: 40px auto;
 }
+
+.faq {
+    text-align:center;
+}
+
 .subapartado {
-    width: 600px;
+    width: 100%;
     min-height: 50px;
     background: var(--bg-black-color);
 }
 
 .title{
-    width: 600px;
+    width: 100%;
     min-height: 50px;
     /* background: red; */
     overflow: hidden;
@@ -26,7 +30,7 @@ p.titler{
 }
 
 .info{
-    width: 600px;
+    width: 100%;
     height: 0;
     background: var(--white-color);
     overflow: hidden;

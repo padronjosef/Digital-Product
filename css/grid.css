@@ -57,12 +57,14 @@
     /* grid-area: start-row / start-column / end-row / end-column */
     grid-area: 2 / 3 / span 4 / span 3;
     padding-top: 0;
-    
-    
+    color: var(--white-color);
+    font-weight: 700;
 }
 
 .container .modulo_pago{
     grid-area: 2 / 6 / span 5 / span 5; 
+    color: var(--white-color);
+    font-weight: 700;
 }
 
 

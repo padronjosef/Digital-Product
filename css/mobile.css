@@ -1,4 +1,5 @@
 @media (max-width: 600px){
+
   .products{
     display: inherit;
     height: auto;
@@ -41,4 +42,22 @@
     width: 50%
   }  
 
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 424px) {
+
+  nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .image-product img {
+    width: 100%;
+  }
 }
