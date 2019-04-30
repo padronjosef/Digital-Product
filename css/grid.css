@@ -1,74 +1,72 @@
 /* -----------------container */
 .container {
-    /* width: 90%; */
-    max-width: 1000px;
-    /* padding: 2.9%;; */
-    padding: 10% 0 10%;;
-    margin: auto;
+  /* width: 90%; */
+  max-width: 1000px;
+  /* padding: 2.9%;; */
+  padding: 10% 0 10%;
+  margin: auto;
 
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 20px 60px auto 60px auto 60px auto;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 20px 60px auto 60px auto 60px auto;
+  grid-gap: 20px;
 }
 
 /* --------------------------------grid */
 
-.container .title_product{
-    grid-column: span 12;
-    padding-bottom: 50px;
+.container .title_product {
+  grid-column: span 12;
+  padding-bottom: 50px;
 }
 
-.container .imagen_pdc{
-    grid-column: span 4;
-    text-align: center;
+.container .imagen_pdc {
+  grid-column: span 4;
+  text-align: center;
 }
 
-.imagen_pdc img{
-    width: 90%;
+.imagen_pdc img {
+  width: 90%;
 }
-.container .description_right{
-    grid-column: span 8;
-    align-self: center;
-}
-
-.space{
-    grid-column: span 12;
+.container .description_right {
+  grid-column: span 8;
+  align-self: center;
 }
 
-.container .imagen_p2{
-    grid-column: span 4;
-    text-align: center;
+.space {
+  grid-column: span 12;
 }
 
-.container .description_left{
-    grid-column: span 8;
-    align-self: center;
+.container .imagen_p2 {
+  grid-column: span 4;
+  text-align: center;
+}
+
+.container .description_left {
+  grid-column: span 8;
+  align-self: center;
 }
 
 /* ----------------------MOON */
-.moon .modulo_pago{
-    grid-area: 2 / 6 / span 5 / span 5; 
+.moon .modulo_pago {
+  grid-area: 2 / 6 / span 5 / span 5;
 }
 
 /* --------------------------------Sales */
 
-.container .modulo_producto{
-    /* grid-area: start-row / start-column / end-row / end-column */
-    grid-area: 2 / 3 / span 4 / span 3;
-    padding-top: 0;
-    color: var(--white-color);
-    font-weight: 700;
+.container .modulo_producto {
+  /* grid-area: start-row / start-column / end-row / end-column */
+  grid-area: 2 / 3 / span 4 / span 3;
+  padding-top: 0;
+  color: var(--white-color);
+  font-weight: 700;
 }
 
-.container .modulo_pago{
-    grid-area: 2 / 6 / span 5 / span 5; 
-    color: var(--white-color);
-    font-weight: 700;
+.container .modulo_pago {
+  grid-area: 2 / 6 / span 5 / span 5;
+  color: var(--white-color);
+  font-weight: 700;
 }
 
-
-.modulo_pago_images{
-   text-align: center;
+.modulo_pago_images {
+  text-align: center;
 }
-

@@ -1,0 +1,56 @@
+body {
+    background-color: #F3F3F6;
+}
+
+.product-h1 {
+    display: flex;
+    margin: 3% 8%;
+    font-weight: bold;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:"product1"
+                        "product2"
+                        "product3"
+}
+
+.product1 {
+    grid-area: product1;
+}
+.product2 {
+    grid-area: product2;
+}
+.product3 {
+    grid-area: product3;
+}
+
+.product2 {
+    box-shadow: -1px 1px 3px #626262;
+}
+
+.product1,
+.product3 {
+    background-color: white;
+    box-shadow: 1px 1px 3px #626262;
+}
+
+.row {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.product-description {
+    width: 40%;
+    margin: 0 2%;
+}
+
+.cat-image,
+.cat-contaner {
+    height: 100%;
+}

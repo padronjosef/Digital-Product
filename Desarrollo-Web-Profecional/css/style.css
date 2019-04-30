@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* -------------------variables */
+:root {
+    --green-color: #78CB2B;
+    --white-color: white;
+    --black-color: #313337;
+
+    /* tipografia */
+    --normal: 12px;
+
+    /* espaciado */
+    --space: 10px;
+
+    /* box shadow */
+    --box: 0 0 2px #313337;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: calc(var(--space)*2);
+    list-style: none;
+}
+
+nav li a {
+    color: grey;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: var(--white-color);
+}
+
+/* ------------------------------------ main section */
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url(../images/curve.png);
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product {
+    padding: var(--space);
+    margin-top: -225px;
+}
+
+.product .content {
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover {
+    background-color: #5e9e22;
+}
+
+.advantages {
+    display: flex;
+    text-align: center;
+    padding: 10%;
+}
+
+.advantage {
+    margin: calc(var(--space)*2);
+}
+
+.advantages img {
+    max-height: 100px;
+}
+
+.mention-title {
+    text-align: center;
+    border-top: 1px solid #EBEBEB;
+    padding-top: calc(var(--space)*1.5);
+}
+
+.mentions {
+    display: flex;
+    padding: 5%;
+}
+
+.content-mention {
+    box-shadow: var(--box);
+    border-radius: 2px;
+}
+
+.mention {
+    padding: var(--space);
+}
+
+.mention img{
+    width: 100%;
+    
+}
+
+.mention-text {
+    padding: var(--space);
+}
+
+img {
+    border-style: none;
+}
+
+footer {
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);
+    padding: var(--space);
+}
+
+.contact {
+    color: var(--green-color);
+}

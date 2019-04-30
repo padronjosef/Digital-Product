@@ -1,50 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500");
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
 /* ------------------------- Variables */
-
-:root{
-/*------ Colores */
-  font-family: 'Orbitron', sans-serif;
-  --bg-black-color: #0C0C0C;
-  --white-color: #F0EFF4;
+:root {
+  /*------ Colores */
+  font-family: "Orbitron", sans-serif;
+  --bg-black-color: #0c0c0c;
+  --white-color: #f0eff4;
   --blue-color: #131313;
-  --black-color: #4D4847;
-  --red-color: #6B0F1A;
+  --black-color: #4d4847;
+  --red-color: #6b0f1a;
 
---box: 0 0 2px 1px var(--white-color);
+  --box: 0 0 2px 1px var(--white-color);
 }
 
 /* -------------------------------------------  */
-html, body{
-  margin:0;
+html,
+body {
+  margin: 0;
   padding: 0;
-  font-size: .9em;
-  font-family: 'Comfortaa';
+  font-size: 0.9em;
+  font-family: "Comfortaa";
   color: var(--white-color);
   background: var(--blue-color);
 }
 
 h2.galaxy {
   color: var(--white-color);
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 1.5em;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-label{
+label {
   padding-bottom: 5px;
 }
 
-.galaxy img{
+.galaxy img {
   width: 3%;
   transform: rotate(35deg);
-  padding-right: .8em;
+  padding-right: 0.8em;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   background-color: var(--bg-black-color);
@@ -54,7 +54,7 @@ nav{
   min-height: 60px;
 }
 
-nav a{
+nav a {
   padding: 10px;
   border: 2px solid transparent;
   font-size: 14px;
@@ -62,19 +62,19 @@ nav a{
   color: var(--white-color);
 }
 
-a.home{
-  font-size:13px;
+a.home {
+  font-size: 13px;
   margin: -10px;
   border: 0px solid transparent;
   /* padding-left: 3px; */
 }
 
-a.home:hover{
+a.home:hover {
   border: 0px solid transparent;
 }
 
-nav a:hover{
-  border: solid 2px #221B6B; 
+nav a:hover {
+  border: solid 2px #221b6b;
   border-radius: 8px;
 }
 
@@ -82,24 +82,24 @@ nav ul {
   display: flex;
 }
 
-nav li{
+nav li {
   list-style: none;
 }
 
-nav a .galaxy{
+nav a .galaxy {
   padding: 0;
 }
+
 /* ------------------------------------------- MAIN SECTION */
-h1.main_section{
-  color:var(--white-color);
+h1.main_section {
+  color: var(--white-color);
   padding-top: 7%;
   padding-bottom: 10%;
   text-align: center;
 }
 
 /* -------------------------------------------  PRODUCTOS */
-
-.initial{
+.initial {
   background-image: url("../images/space.png");
   background-size: cover;
   background-position: center top;
@@ -108,17 +108,17 @@ h1.main_section{
   padding: 5% 15% 15% 15%;
 }
 
-.products{
+.products {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.product{
+.product {
   padding: 10px;
   /* margin-top: -80px; */
 }
 
-.content{
+.content {
   /* background: var(--blue-color); */
   padding: 15px;
   border-radius: 5px;
@@ -129,21 +129,21 @@ h1.main_section{
   font-weight: 700;
 }
 
-.image-product{
-  text-align: center
+.image-product {
+  text-align: center;
 }
 
-.image-product img{
+.image-product img {
   width: 21em;
   /* animation: pulse 1s; */
   box-sizing: content-box;
 }
 
-.image-product:hover{
+.image-product:hover {
   animation: pulse 1s;
 }
 
-.main_btn{
+.main_btn {
   background-color: var(--red-color);
   width: 100%;
   padding: 10px;
@@ -154,39 +154,37 @@ h1.main_section{
   color: var(--white-color);
 }
 
-.main_btn:hover{
+.main_btn:hover {
   background-color: var(--blue-color);
 }
 
 /*----------------------------------- Beneficios */
-.beneficios{
+.beneficios {
   padding: 5% 5%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
 }
 
-.beneficio{
+.beneficio {
   text-align: left;
   padding: 5%;
   text-align: center;
   display: flex;
 }
 
-.beneficio img{
+.beneficio img {
   width: 50%;
 }
 
-
 /* ------------------line */
-hr{
-  opacity: .2;
+hr {
+  opacity: 0.2;
   /* padding: 25px;  */
 }
 
 /*--------------------------------- Mentions */
-.mentions{
+.mentions {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -195,10 +193,9 @@ hr{
 }
 .content_mention {
   max-width: 320px;
-
 }
 
-.mention{
+.mention {
   margin: 0 auto;
   padding: 20px 10px;
   display: flex;
@@ -207,18 +204,17 @@ hr{
   height: 400px;
 }
 
-.mention img{
+.mention img {
   height: 230px;
   width: 100%;
   border-radius: 10px 10px 0 0;
-
 }
 
-.mention img:hover{
-  opacity: .8;
+.mention img:hover {
+  opacity: 0.8;
 }
 
-h2.mention_title{
+h2.mention_title {
   text-align: center;
   font-size: 26px;
   padding-top: 90px;
@@ -226,41 +222,41 @@ h2.mention_title{
   width: 100%;
 }
 
-.content_mention{
+.content_mention {
   box-shadow: var(--box);
   border-radius: 10px;
   width: 100%;
 }
-.text{
+.text {
   padding: 10px;
 }
 
 /* ------------------------------------------- Sales */
-
 .container {
   background-image: url(../images/marsb.jpg);
   background-size: cover;
   background-position: center top;
   padding: 5% 11% 12% 15%;
 }
-.modulo_pago, .modulo_producto{
-  background: rgba(0, 0, 0, .4);
+
+.modulo_pago,
+.modulo_producto {
+  background: rgba(0, 0, 0, 0.4);
   box-shadow: var(--box);
   padding: 10px;
 }
 
 .modulo_pago {
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, 0.4);
   padding: 20px;
-  padding-top: 46px
+  padding-top: 46px;
 }
 
-.modulo_pago_images img{
-  width: 70%
-} 
+.modulo_pago_images img {
+  width: 70%;
+}
 
-
-.data{
+.data {
   margin-top: 16px;
   margin-bottom: 16px;
   width: 100%;
@@ -272,14 +268,14 @@ h2.mention_title{
 
 .modulo_pago .main_btn {
   padding: 10px;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .pay {
   text-align: center;
 }
 
-.btn_pay{
+.btn_pay {
   background: var(--black-color);
   border: none;
   margin: 5px;
@@ -292,26 +288,26 @@ h2.mention_title{
   transition: 0.8s;
 }
 
-.pay p{
+.pay p {
   margin-bottom: 2px;
   font-size: 14px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.sucess:hover{
+.sucess:hover {
   background: rgb(75, 126, 0);
 }
 
-.fail:hover{
-  background: rgb(129, 0, 0)
+.fail:hover {
+  background: rgb(129, 0, 0);
 }
 /* ----------------------------------------HEADER MARS */
 .mars {
-  background: var(--blue-color)
+  background: var(--blue-color);
 }
 
 .marsf {
-  background: rgb(15, 15, 15)
+  background: rgb(15, 15, 15);
 }
 
 /* ---------------------------------------MOON */
@@ -322,46 +318,45 @@ h2.mention_title{
   padding: 5% 11% 12% 15%;
 }
 /* ------------------------------------------- FQRS */
-.fqrs{
-  padding: 5% 20%
+.fqrs {
+  padding: 5% 20%;
 }
 
 /* ------------------------------------------- REC0MENDATIONS */
-.recomendations{
+.recomendations {
   background: #f5f5f5;
   padding: 5% 15%;
   color: black;
   text-align: center;
 }
 
-.recomendations p{
+.recomendations p {
   font-size: 16px;
-  text-align: justify
+  text-align: justify;
 }
 
-.recomendations a{
+.recomendations a {
   text-decoration: none;
   color: black;
-  font-size: 15px
+  font-size: 15px;
 }
 
 .recomendations img {
   width: 100%;
 }
 
-
 /* ------------------------------------------- CONDITIONS */
-.conditions{
-  padding: 5% 15%
+.conditions {
+  padding: 5% 15%;
 }
 
-.conditions p{
+.conditions p {
   font-size: 16px;
-  text-align: justify
+  text-align: justify;
 }
 
 /* ------------------------------------------- FOOTER */
-footer{
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -371,12 +366,11 @@ footer{
   text-decoration-line: none;
 }
 
-footer a{
+footer a {
   text-decoration: none;
-  color: var(--white-color)
+  color: var(--white-color);
 }
 
-footer a:hover{
-  color: grey
+footer a:hover {
+  color: grey;
 }
-

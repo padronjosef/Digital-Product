@@ -1,24 +1,24 @@
-.appear{
-    /* animation: appear 4s forwards; */
-    /* webkit se usa para que pueda ser legible en cualquier navegador */
-    -webkit-animation-duration: 4s;
-    animation-duration: 4s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both; /* ponemos both para que cumpla la animación de ida y regreso */
-    -webkit-animation-name: appear;
-    animation-name: appear;
+.appear {
+  /* animation: appear 4s forwards; */
+  /* webkit se usa para que pueda ser legible en cualquier navegador */
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; /* ponemos both para que cumpla la animación de ida y regreso */
+  -webkit-animation-name: appear;
+  animation-name: appear;
 }
 
-@keyframes appear{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.downIn{
+.downIn {
   /* animation: downIn 1s both; */
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -29,15 +29,15 @@
 }
 
 @keyframes downIn {
-  from{
+  from {
     opacity: 0;
-    -webkit-transform: translate3d(0,-100%,0);
-    transform: translate3d(0,-100%,0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
   }
-  to{
+  to {
     opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -84,8 +84,7 @@
   }
 }
 
-
-.UpIn{
+.UpIn {
   /* animation: downIn 1s both; */
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -95,15 +94,15 @@
   animation-name: UpIn;
 }
 
-@keyframes UpIn{
-  from{
+@keyframes UpIn {
+  from {
     opacity: 0;
-    -webkit-transform: translate3d(0,100%,0);
-    transform: translate3d(0,100%,0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
-  to{
+  to {
     opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }

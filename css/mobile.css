@@ -1,46 +1,45 @@
-@media (max-width: 600px){
-
-  .products{
+@media (max-width: 600px) {
+  .products {
     display: inherit;
     height: auto;
   }
 
-  .product{
+  .product {
     margin-top: auto;
   }
 
   .main_section {
-    padding: 4%
+    padding: 4%;
   }
 
-  .beneficios, .mentions{
+  .beneficios,
+  .mentions {
     display: inherit;
   }
 
-/* ------------- products sheet */
-  .container{
+  /* ------------- products sheet */
+  .container {
     display: inherit;
     height: auto;
     padding: 4%;
     font-size: 1.5em;
-  
   }
 
-  .container .title_product{
+  .container .title_product {
     padding-bottom: 0;
   }
 
-  .imagen_pdc img{
+  .imagen_pdc img {
     width: 60%;
   }
 
-  .container .modulo_producto{
-    margin-bottom: 5%
+  .container .modulo_producto {
+    margin-bottom: 5%;
   }
 
-  .modulo_pago_images img{
-    width: 50%
-  }  
+  .modulo_pago_images img {
+    width: 50%;
+  }
 
   .footer {
     width: 100%;
@@ -50,13 +49,12 @@
 }
 
 @media (max-width: 424px) {
-
   nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  
+
   .image-product img {
     width: 100%;
   }
